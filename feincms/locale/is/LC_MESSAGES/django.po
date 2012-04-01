@@ -1,0 +1,969 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-01 10:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: models.py:419 content/template/models.py:59
+msgid "template"
+msgstr "snið"
+
+#: models.py:550
+msgid "ordering"
+msgstr "röðun"
+
+#: translations.py:259 module/blog/extensions/translations.py:17
+#: module/extensions/translations.py:102
+msgid "language"
+msgstr "tungumál"
+
+#: admin/filterspecs.py:46 admin/filterspecs.py:84
+msgid "All"
+msgstr "Allt"
+
+#: admin/filterspecs.py:57 module/page/models.py:222
+msgid "Parent"
+msgstr "Foreldri"
+
+#: admin/filterspecs.py:95
+#: templates/admin/medialibrary/mediafile/change_list.html:15
+msgid "Category"
+msgstr "Flokkur"
+
+#: admin/item_editor.py:163
+#, python-format
+msgid "Change %s"
+msgstr "Breyta %s"
+
+#: admin/tree_editor.py:215 content/rss/models.py:20
+#: content/section/models.py:31 module/blog/models.py:30
+#: module/medialibrary/models.py:55 module/page/models.py:220
+#: module/page/models.py:299
+msgid "title"
+msgstr "titill"
+
+#: admin/tree_editor.py:385
+#, python-format
+msgid "%s has been moved to a new position."
+msgstr "%s hefur verið fært á nýjan stað"
+
+#: admin/tree_editor.py:389
+msgid "Did not understand moving instruction."
+msgstr "Skildi ekki færsluleiðbeiningar"
+
+#: admin/tree_editor.py:398
+msgid "actions"
+msgstr "aðgerðir"
+
+#: content/application/models.py:263
+msgid "application content"
+msgstr "forritsinnihald"
+
+#: content/application/models.py:264
+msgid "application contents"
+msgstr "forritsinnihald"
+
+#: content/application/models.py:295
+msgid "application"
+msgstr "forrit"
+
+#: content/comments/models.py:28
+msgid "enabled"
+msgstr "kveikja á"
+
+#: content/comments/models.py:28
+msgid "New comments may be added"
+msgstr "Nýjum ummælum can að vera bætt við"
+
+#: content/comments/models.py:32 content/comments/models.py:33
+msgid "comments"
+msgstr "ummæli"
+
+#: content/comments/models.py:48
+msgid "public"
+msgstr "opinbert"
+
+#: content/comments/models.py:48
+msgid "not public"
+msgstr "ekki opinbert"
+
+#: content/contactform/models.py:18
+msgid "name"
+msgstr "nafn"
+
+#: content/contactform/models.py:19
+msgid "email"
+msgstr "tölvupóstur"
+
+#: content/contactform/models.py:20
+msgid "subject"
+msgstr "efni"
+
+#: content/contactform/models.py:23 content/raw/models.py:14
+msgid "content"
+msgstr "innihald"
+
+#: content/contactform/models.py:34
+msgid "contact form"
+msgstr "hafa samband form"
+
+#: content/contactform/models.py:35
+msgid "contact forms"
+msgstr "hafa samband form"
+
+#: content/file/models.py:16 content/file/models.py:20
+#: module/medialibrary/models.py:105
+msgid "file"
+msgstr "skrá"
+
+#: content/file/models.py:21
+msgid "files"
+msgstr "skrár"
+
+#: content/image/models.py:24 content/image/models.py:28
+msgid "image"
+msgstr "mynd"
+
+#: content/image/models.py:29
+msgid "images"
+msgstr "myndir"
+
+#: content/image/models.py:42 content/medialibrary/models.py:105
+#: content/medialibrary/models.py:113
+msgid "position"
+msgstr "staðsetning"
+
+#: content/medialibrary/models.py:38
+msgid "(no caption)"
+msgstr "(engin yfirskrift)"
+
+#: content/medialibrary/models.py:87 content/medialibrary/models.py:101
+#: content/medialibrary/models.py:111 content/medialibrary/v2.py:44
+#: content/section/models.py:47 module/medialibrary/fields.py:45
+#: module/medialibrary/models.py:118
+msgid "media file"
+msgstr "miðlaskrá"
+
+#: content/medialibrary/models.py:88 content/medialibrary/v2.py:45
+#: module/medialibrary/models.py:119
+msgid "media files"
+msgstr "miðlaskrár"
+
+#: content/medialibrary/models.py:130
+msgid "block"
+msgstr "stæða"
+
+#: content/medialibrary/models.py:131
+msgid "left"
+msgstr "vinstri"
+
+#: content/medialibrary/models.py:132
+msgid "right"
+msgstr "hægri"
+
+#: content/medialibrary/v2.py:49 content/section/models.py:52
+#: content/section/models.py:60 content/table/models.py:81
+msgid "type"
+msgstr "týpa"
+
+#: content/raw/models.py:18
+msgid "raw content"
+msgstr "hrátt efni"
+
+#: content/raw/models.py:19
+msgid "raw contents"
+msgstr "hrá efni"
+
+#: content/richtext/models.py:15 content/richtext/models.py:85
+#: content/section/models.py:32
+msgid "text"
+msgstr "texti"
+
+#: content/richtext/models.py:26
+msgid "HTML Tidy"
+msgstr "HTML snyrtir"
+
+#: content/richtext/models.py:27
+msgid "Ignore the HTML validation warnings"
+msgstr "Hunsa viðvaranir um ógilt HTML"
+
+#: content/richtext/models.py:51
+#, python-format
+msgid ""
+"HTML validation produced %(count)d warnings. Please review the updated "
+"content below before continuing: %(messages)s"
+msgstr "HTML skoðun sýndi %(count)d viðvaranir. Vinsamlegat farið yfir uppfært "
+"efni áður en haldið er áfram: %(messages)s"
+
+#: content/richtext/models.py:89
+msgid "rich text"
+msgstr "ríkur texti"
+
+#: content/richtext/models.py:90
+msgid "rich texts"
+msgstr "ríkir textar"
+
+#: content/rss/models.py:21
+msgid ""
+"The rss field is updated several times a day. A change in the title will "
+"only be visible on the home page after the next feed update."
+msgstr ""
+"RSS er uppfært nokkrum sinnum á dag. Breyting á titli mun einungis "
+"verða sýnilegt after næstu uppfærslu."
+
+#: content/rss/models.py:22
+msgid "link"
+msgstr "hlekkur"
+
+#: content/rss/models.py:23
+msgid "pre-rendered content"
+msgstr "óunnið efni"
+
+#: content/rss/models.py:24
+msgid "last updated"
+msgstr "seinast breytt"
+
+#: content/rss/models.py:25
+msgid "max. items"
+msgstr "hámark hluta"
+
+#: content/rss/models.py:29
+msgid "RSS feed"
+msgstr "RSS straumur"
+
+#: content/rss/models.py:30
+msgid "RSS feeds"
+msgstr "RSS straumar"
+
+#: content/section/models.py:36
+msgid "section"
+msgstr "kafli"
+
+#: content/section/models.py:37
+msgid "sections"
+msgstr "kaflar"
+
+#: content/table/models.py:62
+msgid "plain"
+msgstr "látlaus"
+
+#: content/table/models.py:63
+msgid "title row"
+msgstr "titilsröð"
+
+#: content/table/models.py:65
+msgid "title row and column"
+msgstr "titilsröð og dálkur"
+
+#: content/table/models.py:71
+msgid "table"
+msgstr "tafla"
+
+#: content/table/models.py:72
+msgid "tables"
+msgstr "töflur"
+
+#: content/table/models.py:86
+msgid "data"
+msgstr "gögn"
+
+#: content/template/models.py:51
+msgid "template content"
+msgstr "efni sniðs"
+
+#: content/template/models.py:52
+msgid "template contents"
+msgstr "efni snips"
+
+#: content/video/models.py:25
+msgid "video link"
+msgstr "myndbandshlekkur"
+
+#: content/video/models.py:26
+msgid ""
+"This should be a link to a youtube or vimeo video, i.e.: http://www.youtube."
+"com/watch?v=zmj1rpzDRZ0"
+msgstr ""
+"Þetta skal vera hlekkur á youtube eða vimeo myndband."
+
+#: content/video/models.py:30
+msgid "video"
+msgstr "myndband"
+
+#: content/video/models.py:31
+msgid "videos"
+msgstr "myndbönd"
+
+#: contrib/tagging.py:113
+msgid "Tagging"
+msgstr "Merking"
+
+#: module/blog/models.py:29
+msgid "published"
+msgstr "útgefið"
+
+#: module/blog/models.py:31
+msgid "This is used for the generated navigation too."
+msgstr "Einnig notað fyrir sjálvirka veftréið"
+
+#: module/blog/models.py:34
+msgid "published on"
+msgstr "útgefið þann"
+
+#: module/blog/models.py:35
+msgid "Will be set automatically once you tick the `published` checkbox above."
+msgstr "Mun verða sett sjálfkrafa um leið og hakað er við ``útgefið` fyrir ofan."
+
+#: module/blog/models.py:40
+msgid "entry"
+msgstr "færsla"
+
+#: module/blog/models.py:41
+msgid "entries"
+msgstr "færslur"
+
+#: module/blog/extensions/tags.py:12
+msgid "tags"
+msgstr "tög"
+
+#: module/blog/extensions/translations.py:20
+#: module/extensions/translations.py:105
+msgid "translation of"
+msgstr "þýðing af"
+
+#: module/blog/extensions/translations.py:23
+#: module/extensions/translations.py:108
+msgid "Leave this empty for entries in the primary language."
+msgstr "Skiljið tómt fyrir færslur í frummáli"
+
+#: module/blog/extensions/translations.py:44
+#: templates/admin/feincms/item_editor.html:40
+msgid "available translations"
+msgstr "þýðingar í boði"
+
+#: module/extensions/changedate.py:36
+msgid "creation date"
+msgstr "dags."
+
+#: module/extensions/changedate.py:37
+msgid "modification date"
+msgstr "dags breytt"
+
+#: module/extensions/ct_tracker.py:136
+msgid "content types"
+msgstr "efnistýpur"
+
+#: module/extensions/datepublisher.py:48
+msgid "publication date"
+msgstr "dags. útgefið"
+
+#: module/extensions/datepublisher.py:50
+msgid "publication end date"
+msgstr "dags. lok útgáfu"
+
+#: module/extensions/datepublisher.py:52
+msgid "Leave empty if the entry should stay active forever."
+msgstr "Skiljið tómt ef færsla á ekki að renna út."
+
+#: module/extensions/datepublisher.py:79
+msgid "visible from - to"
+msgstr "sýnileg frá - til"
+
+#: module/extensions/datepublisher.py:89
+msgid "Date-based publishing"
+msgstr "Dagsetningarbyggð útgáfa"
+
+#: module/extensions/featured.py:9
+msgid "featured"
+msgstr "sérkenni"
+
+#: module/extensions/featured.py:14
+msgid "Featured"
+msgstr "Sérkenni"
+
+#: module/extensions/seo.py:9
+msgid "meta keywords"
+msgstr "meta lykilorð"
+
+#: module/extensions/seo.py:10
+msgid "This will be prepended to the default keyword list."
+msgstr "Verður bætt á undan sjálfgefna lykilorðalista."
+
+#: module/extensions/seo.py:11
+msgid "meta description"
+msgstr "meta lýsing"
+
+#: module/extensions/seo.py:12
+msgid "This will be prepended to the default description."
+msgstr "Verður bætt við á undan sjálfgefnu lýsingu."
+
+#: module/extensions/seo.py:18
+msgid "Search engine optimization"
+msgstr "Leitarvélarhagræðing"
+
+#: module/extensions/translations.py:175
+msgid "Edit translation"
+msgstr "Breyta þýðingu"
+
+#: module/extensions/translations.py:178
+msgid "Create translation"
+msgstr "Búa til þýðingu"
+
+#: module/extensions/translations.py:183
+msgid "translations"
+msgstr "þýðingar"
+
+#: module/medialibrary/models.py:58
+msgid "parent"
+msgstr "foreldri"
+
+#: module/medialibrary/models.py:60 module/page/models.py:221
+msgid "slug"
+msgstr ""
+
+#: module/medialibrary/models.py:64
+msgid "category"
+msgstr "flokkun"
+
+#: module/medialibrary/models.py:65 module/medialibrary/models.py:111
+msgid "categories"
+msgstr "flokkanir"
+
+#: module/medialibrary/models.py:106 module/medialibrary/models.py:195
+msgid "file type"
+msgstr "skrártýpa"
+
+#: module/medialibrary/models.py:107 module/medialibrary/models.py:133
+msgid "created"
+msgstr "búið til"
+
+#: module/medialibrary/models.py:108
+msgid "copyright"
+msgstr "höfundarréttur"
+
+#: module/medialibrary/models.py:109 module/medialibrary/models.py:128
+msgid "file size"
+msgstr "skrárstærð"
+
+#: module/medialibrary/models.py:216
+msgid "file info"
+msgstr "skráarupplýsingar"
+
+#: module/medialibrary/models.py:293
+msgid "Image"
+msgstr "Mynd"
+
+#: module/medialibrary/models.py:294
+msgid "Video"
+msgstr "Myndband"
+
+#: module/medialibrary/models.py:295
+msgid "Audio"
+msgstr "Hljóð"
+
+#: module/medialibrary/models.py:296
+msgid "PDF document"
+msgstr "PDF skjal"
+
+#: module/medialibrary/models.py:297
+msgid "Flash"
+msgstr "Flash"
+
+#: module/medialibrary/models.py:298
+msgid "Text"
+msgstr "Texti"
+
+#: module/medialibrary/models.py:299
+msgid "Rich Text"
+msgstr "Ríkur texti"
+
+#: module/medialibrary/models.py:300
+msgid "Zip archive"
+msgstr "Zip skrá"
+
+#: module/medialibrary/models.py:301
+msgid "Microsoft Word"
+msgstr ""
+
+#: module/medialibrary/models.py:302
+msgid "Microsoft Excel"
+msgstr ""
+
+#: module/medialibrary/models.py:303
+msgid "Microsoft PowerPoint"
+msgstr ""
+
+#: module/medialibrary/models.py:304
+msgid "Binary"
+msgstr "Skrá (Binary)"
+
+#: module/medialibrary/models.py:320
+msgid "caption"
+msgstr "yfirskrift"
+
+#: module/medialibrary/models.py:321
+msgid "description"
+msgstr "lýsing"
+
+#: module/medialibrary/models.py:324
+msgid "media file translation"
+msgstr "Miðlaskráarþýðing"
+
+#: module/medialibrary/models.py:325
+msgid "media file translations"
+msgstr "Miðlaskráarþýðingar"
+
+#: module/medialibrary/models.py:347
+#: templates/admin/feincms/page/page/item_editor.html:14
+msgid "Preview"
+msgstr "Sýnishorn"
+
+#: module/medialibrary/models.py:367
+#, python-format
+msgid "Successfully added %(count)d media file to %(category)s."
+msgid_plural "Successfully added %(count)d media files to %(category)s."
+msgstr[0] "Bætti við %(count)d miðlaskrá í %(category)s."
+msgstr[1] "Bætti við %(count)d miðlaskrám í %(category)s."
+
+#: module/medialibrary/models.py:385
+msgid "Add selected media files to category"
+msgstr "Bæta völdum miðlaskrám við flokkun"
+
+#: module/medialibrary/models.py:394
+#, python-format
+msgid "ZIP file exported as %s"
+msgstr "ZIP skrá flutt út sem %s"
+
+#: module/medialibrary/models.py:396
+#, python-format
+msgid "ZIP file export failed: %s"
+msgstr "ZIP skráar flutningur mistókst: %s"
+
+#: module/medialibrary/models.py:400
+msgid "Export selected media files as zip file"
+msgstr "Flytja valdar skrár yfir í zip skrá"
+
+#: module/medialibrary/models.py:423
+#, python-format
+msgid ""
+"Cannot overwrite with different file type (attempt to overwrite a "
+"%(old_ext)s with a %(new_ext)s)"
+msgstr ""
+"Get ekki yfirskrifað mismunandi skrártýpu (reynt að yfirskrifa "
+"%(old_ext)s með %(new_ext)s)"
+
+#: module/medialibrary/models.py:466
+#, python-format
+msgid "%d files imported"
+msgstr "%d skrár fluttar inn"
+
+#: module/medialibrary/models.py:468
+#, python-format
+msgid "ZIP import failed: %s"
+msgstr "ZIP flutningur mistókst: %s"
+
+#: module/medialibrary/models.py:470
+msgid "No input file given"
+msgstr "Vantar skrá"
+
+#: module/page/models.py:217
+msgid "active"
+msgstr "virk"
+
+#: module/page/models.py:224 module/page/models.py:729
+msgid "in navigation"
+msgstr "í veftre"
+
+#: module/page/models.py:225
+msgid "override URL"
+msgstr "yfirskrifa slóð (URL)"
+
+#: module/page/models.py:226
+msgid ""
+"Override the target URL. Be sure to include slashes at the beginning and at "
+"the end if it is a local URL. This affects both the navigation and subpages' "
+"URLs."
+msgstr ""
+"Yfirskrifa slóð. Mundu að láta skástrik í byrjun og enda ef slóðin er vefsvæðisbundin. "
+"Þetta hefur áhrif á bæði veftré og slóðir undirsíða."
+
+#: module/page/models.py:227
+msgid "redirect to"
+msgstr "redirect til"
+
+#: module/page/models.py:228
+msgid "Target URL for automatic redirects."
+msgstr "Slóð fyrir sjálfvirkt redirect"
+
+#: module/page/models.py:229
+msgid "Cached URL"
+msgstr "Slóð afrits (Cache)"
+
+#: module/page/models.py:240
+msgid "page"
+msgstr "síða"
+
+#: module/page/models.py:241
+msgid "pages"
+msgstr "síður"
+
+#: module/page/models.py:258 module/page/models.py:809
+msgid "is active"
+msgstr "er virk"
+
+#: module/page/models.py:639
+msgid "This URL is already taken by an active page."
+msgstr "Þessi slóð er í notktun af annarri síðu."
+
+#: module/page/models.py:657
+msgid "This URL is already taken by another active page."
+msgstr "Þessi slóð er í notkun af virkri síðu."
+
+#: module/page/models.py:681
+msgid "Other options"
+msgstr "Aðrir valkostir"
+
+#: module/page/models.py:740
+msgid "Add child page"
+msgstr "Bæta við undirsíðu"
+
+#: module/page/models.py:742 templates/admin/feincms/content_inline.html:9
+msgid "View on site"
+msgstr "Skoða á vef"
+
+#: module/page/models.py:772
+msgid ""
+"The content from the original translation has been copied to the newly "
+"created page."
+msgstr ""
+"Efni upprunalegrar þýðingar hefur verið afritað á nýju síðuna."
+
+#: module/page/models.py:786
+msgid "You don't have the necessary permissions to edit this object"
+msgstr "Þú hefur ekki leyfi til þess að breyta þessum hlut"
+
+#: module/page/models.py:801
+msgid "inherited"
+msgstr "erft"
+
+#: module/page/models.py:805
+msgid "extensions"
+msgstr "framlengingar"
+
+#: module/page/extensions/excerpt.py:9
+msgid "excerpt"
+msgstr "útdráttur"
+
+#: module/page/extensions/excerpt.py:10
+msgid "Add a brief excerpt summarizing the content of this page."
+msgstr "Bæta við stuttum úrdrætti af efni síðunnar."
+
+#: module/page/extensions/excerpt.py:12
+msgid "Excerpt"
+msgstr "Útdráttur"
+
+#: module/page/extensions/navigation.py:74
+#: module/page/extensions/navigation.py:94
+msgid "navigation extension"
+msgstr "veftrésframlengingar"
+
+#: module/page/extensions/navigation.py:96
+msgid ""
+"Select the module providing subpages for this page if you need to customize "
+"the navigation."
+msgstr ""
+"Veldu þá módulu sem sér um undirsíðu þessarar síðu ef þú þarft að aðlaga veftré."
+
+#: module/page/extensions/navigation.py:109
+msgid "Navigation extension"
+msgstr "Veftrésframlengingar"
+
+#: module/page/extensions/relatedpages.py:13
+msgid "Select pages that should be listed as related content."
+msgstr "Veldur síður sem flokkaðar eiga að vera sem skylt efni."
+
+#: module/page/extensions/relatedpages.py:20
+msgid "Related pages"
+msgstr "Skyldar síður."
+
+#: module/page/extensions/sites.py:16
+msgid "Site"
+msgstr "Síða"
+
+#: module/page/extensions/symlinks.py:15
+msgid "symlinked page"
+msgstr "symlinkuð síða"
+
+#: module/page/extensions/symlinks.py:16
+msgid "All content is inherited from this page if given."
+msgstr "Allt efni er erft frá þessari síðu ef eitthvað er valið."
+
+#: module/page/extensions/symlinks.py:30
+msgid "Symlinked page"
+msgstr "Symlinkuð síða"
+
+#: module/page/extensions/titles.py:13
+msgid "content title"
+msgstr "Efnistitill"
+
+#: module/page/extensions/titles.py:14
+msgid "The first line is the main title, the following lines are subtitles."
+msgstr "Firsta línan er aðal titill, seinni eru undirtitlar."
+
+#: module/page/extensions/titles.py:15
+msgid "page title"
+msgstr "titill síðu"
+
+#: module/page/extensions/titles.py:16
+msgid "Page title for browser window. Same as title by default."
+msgstr "Titill síðu fyrir glugga vafra. Sjálfkrafa sami og titill."
+
+#: module/page/extensions/titles.py:43
+msgid "Titles"
+msgstr "Titlar"
+
+#: templates/admin/filter.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr "Eftir %(filter_title)s"
+
+#: templates/admin/content/mediafile/init.html:9
+msgid "Search"
+msgstr "Leita"
+
+#: templates/admin/feincms/_messages_js.html:4
+msgid "Really delete item?"
+msgstr "Ertur viss um að eyða hlut?"
+
+#: templates/admin/feincms/_messages_js.html:4
+msgid "Confirm to delete item"
+msgstr "Staðfesta að eyða hlut"
+
+#: templates/admin/feincms/_messages_js.html:5
+msgid "Item deleted successfully."
+msgstr "Hluti eytt"
+
+#: templates/admin/feincms/_messages_js.html:5
+msgid "Cannot delete item"
+msgstr "Get ekki eytt hlut"
+
+#: templates/admin/feincms/_messages_js.html:6
+msgid "Cannot delete item, because it is parent of at least one other item."
+msgstr "Get ekki eytt hlut, af því hann er foreldri minnsta kosti eins annars hluts."
+
+#: templates/admin/feincms/_messages_js.html:7
+msgid "Change template"
+msgstr "Breyta sniði"
+
+#: templates/admin/feincms/_messages_js.html:8
+msgid "Really change template? <br />All changes are saved."
+msgstr "Virkilega breyta sniði? <br/>Allar breytingar eru vistaðar."
+
+#: templates/admin/feincms/_messages_js.html:9
+#, python-format
+msgid ""
+"Really change template? <br />All changes are saved and content from <strong>"
+"%%(source_regions)s</strong> is moved to <strong>%%(target_region)s</strong>."
+msgstr ""
+"Virkilega breyta sniði"
+
+#: templates/admin/feincms/_messages_js.html:12
+msgid "Hide"
+msgstr ""
+
+#: templates/admin/feincms/_messages_js.html:13
+msgid "Show"
+msgstr ""
+
+#: templates/admin/feincms/_messages_js.html:14
+msgid "After"
+msgstr ""
+
+#: templates/admin/feincms/_messages_js.html:15
+msgid "Before"
+msgstr ""
+
+#: templates/admin/feincms/_messages_js.html:16
+msgid "Insert new:"
+msgstr ""
+
+#: templates/admin/feincms/content_editor.html:11
+msgid "Region empty"
+msgstr ""
+
+#: templates/admin/feincms/content_editor.html:15
+msgid ""
+"Content from the parent site is automatically inherited. To override this "
+"behaviour, add some content."
+msgstr ""
+
+#: templates/admin/feincms/content_editor.html:23
+msgid "Add new item"
+msgstr ""
+
+#: templates/admin/feincms/content_inline.html:91
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: templates/admin/feincms/content_inline.html:94
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/feincms/fe_editor.html:40
+msgid "Save"
+msgstr ""
+
+#: templates/admin/feincms/fe_tools.html:27
+msgid "Stop Editing"
+msgstr ""
+
+#: templates/admin/feincms/fe_tools.html:32
+msgid "edit"
+msgstr ""
+
+#: templates/admin/feincms/fe_tools.html:34
+msgid "new"
+msgstr ""
+
+#: templates/admin/feincms/fe_tools.html:35
+msgid "up"
+msgstr ""
+
+#: templates/admin/feincms/fe_tools.html:36
+msgid "down"
+msgstr ""
+
+#: templates/admin/feincms/fe_tools.html:37
+msgid "remove"
+msgstr ""
+
+#: templates/admin/feincms/recover_form.html:7
+#: templates/admin/feincms/revision_form.html:10
+#: templates/admin/feincms/page/page/item_editor.html:22
+#: templates/admin/feincms/page/page/tree_editor.html:7
+msgid "Home"
+msgstr ""
+
+#: templates/admin/feincms/recover_form.html:10
+#, python-format
+msgid "Recover deleted %(verbose_name)s"
+msgstr ""
+
+#: templates/admin/feincms/recover_form.html:17
+msgid "Press the save button below to recover this version of the object."
+msgstr ""
+
+#: templates/admin/feincms/revision_form.html:14
+msgid "History"
+msgstr ""
+
+#: templates/admin/feincms/revision_form.html:15
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: templates/admin/feincms/revision_form.html:28
+msgid "Press the save button below to revert to this version of the object."
+msgstr ""
+
+#: templates/admin/feincms/tree_editor.html:32
+msgid "Shortcuts"
+msgstr ""
+
+#: templates/admin/feincms/tree_editor.html:34
+msgid "Collapse tree"
+msgstr ""
+
+#: templates/admin/feincms/tree_editor.html:35
+msgid "Expand tree"
+msgstr ""
+
+#: templates/admin/feincms/tree_editor.html:38
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/feincms/page/page/item_editor.html:9
+msgid "Edit on site"
+msgstr ""
+
+#: templates/admin/feincms/page/page/item_editor.html:26
+msgid "Add"
+msgstr ""
+
+#: templates/admin/medialibrary/add_to_category.html:5
+#: templates/admin/medialibrary/add_to_category.html:9
+msgid "Add media files to category"
+msgstr ""
+
+#: templates/admin/medialibrary/add_to_category.html:11
+msgid "Select category to apply:"
+msgstr ""
+
+#: templates/admin/medialibrary/add_to_category.html:17
+msgid "The following media files will be added to the selected category:"
+msgstr ""
+
+#: templates/admin/medialibrary/add_to_category.html:22
+msgid "Add to category"
+msgstr ""
+
+#: templates/admin/medialibrary/add_to_category.html:23
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/medialibrary/mediafile/change_list.html:12
+msgid "Bulk upload a ZIP file:"
+msgstr ""
+
+#: templates/admin/medialibrary/mediafile/change_list.html:22
+msgid "Overwrite"
+msgstr ""
+
+#: templates/admin/medialibrary/mediafile/change_list.html:25
+msgid "Send"
+msgstr ""
+
+#: templates/content/comments/default.html:10
+#, python-format
+msgid "%(comment_count)s comments."
+msgstr ""
+
+#: templates/content/comments/default.html:18
+#, python-format
+msgid ""
+"\n"
+"                    %(comment_username)s said on %(comment_submit_date)s<br /"
+">\n"
+"                "
+msgstr ""
+
+#: templates/content/comments/default.html:28
+msgid "No comments."
+msgstr ""
+
+#: templates/content/comments/default.html:36
+msgid "Post Comment"
+msgstr ""
+
+#: templates/content/contactform/form.html:9
+msgid "Submit"
+msgstr ""
+
+#: templates/content/contactform/thanks.html:3
+msgid "Thanks!"
+msgstr ""
